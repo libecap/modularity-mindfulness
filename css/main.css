@@ -1,0 +1,32 @@
+.japanese {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.noto {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.navi a{
+  color: #0084a6;
+}
+
+.navi a:hover{
+  color: #005e76;
+}
+
+.action-btn a {
+  color: #0084a6;
+  background-color: #fff;
+  border-color: #0084a6;
+}
+
+.action-btn a:hover {
+  color: #005e76;
+  background-color: #8bc9d9;
+  border-color: #005e76;
+}
+
+.copyright p {
+  color: #e2e2e2;
+}
+Colours:* `#000`, #e2e2e2`, `#8bc9d9`, `#0084a6`, `#005e76`
