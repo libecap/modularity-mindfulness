@@ -11,12 +11,13 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 
-.navi a {
+.btn-ghost {
   color: #0084a6;
 }
 
-.navi a:hover {
+.btn-ghost:hover {
   color: #005e76;
+  background-color: #fff;
 }
 
 .action-btn a {
@@ -35,4 +36,24 @@ html {
 
 .copyright p {
   color: #e2e2e2;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav {
+    width: 100%;
+    display: block;
+    top: 0%;
+  }
+
+  .nav li {
+    display: inline-block;
+    width: 25%;
+  }
+
+  .nav a {
+    display: inline-block;
+    width: 100%;
+  }
+
 }
